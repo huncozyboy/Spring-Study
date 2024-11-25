@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class BlogApiController {
     private final BlogService blogService;
-    //
     @PostMapping("/api/articles")
     public ResponseEntity<Article> addArticle(@RequestBody AddArticleRequest request) {
         return ResponseEntity.ok(blogService.save(request));
