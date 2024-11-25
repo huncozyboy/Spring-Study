@@ -10,7 +10,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class BlogService {
     private final BlogRepository blogRepository;
-    //블로그 서비스
     public Article save(AddArticleRequest request) {
         return blogRepository.save(request.toEntity());
     }
