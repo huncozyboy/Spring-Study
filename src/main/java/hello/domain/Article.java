@@ -13,7 +13,6 @@ import lombok.NoArgsConstructor;
 @Getter
 @NoArgsConstructor
 public class Article {
-    //
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", updatable = false)
