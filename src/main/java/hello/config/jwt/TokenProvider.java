@@ -1,4 +1,4 @@
-package hello.config;
+package hello.config.jwt;
 
 import java.time.Duration;
 import java.util.Collections;

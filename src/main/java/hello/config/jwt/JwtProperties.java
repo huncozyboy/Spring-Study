@@ -1,4 +1,4 @@
-package hello.config;
+package hello.config.jwt;
 
 import lombok.Getter;
 import lombok.Setter;
