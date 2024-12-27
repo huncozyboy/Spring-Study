@@ -1,9 +1,9 @@
 package hello.controller;
 
 import hello.domain.Article;
-import hello.dto.AddArticleRequest;
-import hello.dto.ArticleResponse;
-import hello.dto.UpdateArticleRequest;
+import hello.dto.request.AddArticleRequest;
+import hello.dto.response.ArticleResponse;
+import hello.dto.request.UpdateArticleRequest;
 import hello.service.BlogService;
 import java.util.List;
 import lombok.RequiredArgsConstructor;

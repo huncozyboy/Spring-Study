@@ -1,7 +1,7 @@
 package hello.controller;
 
-import hello.dto.CreateAccessTokenRequest;
-import hello.dto.CreateAccessTokenResponse;
+import hello.dto.request.CreateAccessTokenRequest;
+import hello.dto.response.CreateAccessTokenResponse;
 import hello.service.TokenService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

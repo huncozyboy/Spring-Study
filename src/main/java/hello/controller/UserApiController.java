@@ -1,6 +1,6 @@
 package hello.controller;
 
-import hello.dto.AddUserRequest;
+import hello.dto.request.AddUserRequest;
 import hello.service.UserService;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

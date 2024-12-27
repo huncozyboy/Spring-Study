@@ -1,13 +1,13 @@
 package hello.controller;
 
 import hello.domain.Article;
-import hello.dto.ArticleListViewResponse;
-import hello.dto.ArticleViewResponse;
+import hello.dto.response.ArticleListViewResponse;
+import hello.dto.response.ArticleViewResponse;
 import hello.service.BlogService;
-import org.springframework.ui.Model;
 import java.util.List;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;

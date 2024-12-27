@@ -1,7 +1,7 @@
 package hello.service;
 
 import hello.domain.User;
-import hello.dto.AddUserRequest;
+import hello.dto.request.AddUserRequest;
 import hello.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;

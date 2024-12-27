@@ -1,9 +1,9 @@
 package hello.service;
 
-import hello.dto.UpdateArticleRequest;
+import hello.dto.request.UpdateArticleRequest;
 import hello.repository.BlogRepository;
 import hello.domain.Article;
-import hello.dto.AddArticleRequest;
+import hello.dto.request.AddArticleRequest;
 import jakarta.transaction.Transactional;
 import java.util.List;
 import lombok.RequiredArgsConstructor;
