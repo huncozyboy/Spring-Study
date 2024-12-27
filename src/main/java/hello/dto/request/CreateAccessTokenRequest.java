@@ -1,4 +1,4 @@
-package hello.dto;
+package hello.dto.request;
 
 import lombok.Getter;
 import lombok.Setter;
