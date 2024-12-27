@@ -1,4 +1,4 @@
-package hello.dto;
+package hello.dto.response;
 
 import hello.domain.Article;
 import java.time.LocalDateTime;
